@@ -42,7 +42,7 @@ Execution log:
 
 ### Result
 
-> To increase the output quality SUB_IMAGE_SIZE in code (W in image below), but will dramatically increase the processing time.
+> To increase the output quality change SUB_IMAGE_SIZE in code (W at image below), but this will dramatically increase the processing time.
 
 
 | Original          | Grid Image          |
