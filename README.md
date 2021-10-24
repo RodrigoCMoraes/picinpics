@@ -40,7 +40,14 @@ Execution log:
 2021-10-24 15:48:19.472 | INFO     | __main__:<module>:126 - done
 ```
 
-> *To increase the output quality SUB_IMAGE_SIZE in code (W in image below), but will dramatically increase the processing time.
+### Result
+
+> To increase the output quality SUB_IMAGE_SIZE in code (W in image below), but will dramatically increase the processing time.
+
+
+| Original          | Grid Image          |
+| ----------------- | ------------------- |
+| ![](original.jpg) | ![](grid_image.png) |
 
 ## Algorithm
 
