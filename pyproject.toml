@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "picinpics"
+version = "0.1.0"
+description = "Script that receives an Image (original) and a set of images to be used as \"pixels\" in reconstruction of the Original image using the set of images as \"pixels\""
+authors = ["RodrigoCMoraes <rodrigo.moraes@vtex.com.br>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+opencv-python = "^4.5.3"
+loguru = "^0.5.3"
+tqdm = "^4.62.3"
+scikit-learn = "^1.0"
+pathos = "^0.2.8"
+six = "^1.16.0"
+scikit-image = "^0.18.3"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21.9b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
